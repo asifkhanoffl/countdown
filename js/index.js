@@ -17,4 +17,5 @@ function updateTime() {
   minutes.innerHTML = m < 10 ? `0${m}` : m;
   secods.innerHTML = s < 10 ? `0${s}` : s;
 }
+updateTime();
 setInterval(updateTime, 1000);
